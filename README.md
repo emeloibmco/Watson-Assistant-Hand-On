@@ -130,4 +130,29 @@ Ahora vamos a añadir los diálogos, para ello se debe seleccionar “Add node�
 
 
 
+## 3. Conservar el Watson Assistant 🔧
+
+Para que tu Watson Assistant se mantenga siendo funcional es recomendable:
+
+### 2.1 Actualiza los intentes:
+Siempre que sea posible crear nuevas entidades o elimina las que los usuarios realmente no estén utilizando.
+### 2.2 Escribe diferentes formas de un mismo mensaje:
+Los usuarios pueden preguntar de diferentes formas es por eso que es necesario que una sola pregunta tenga varias versiones.
+### 2.3 Guía a los usuarios a través de la conversación:
+Para que los usuarios tengan una buena experiencia y deseen seguir usando en Assistant es necesario que se guíen desde el principio hasta el final de la conversación.
+### 2.4 Cuida el flujo de la conversación:
+Cada interacción debe conducir a la siguiente que ya fue definida. Es conveniente que la conversación este guionizada para que los usuarios solo tengan que seguir el guion creado.
+### 2.5 Asegúrese que su interfaz conversación este siempre actualizada:
+Watson Assistant está diseñado para simular una conversación, pero se recomienda no solo usar textos, sino que por medio de IBM también se puede enriquecer con imágenes, botones, etc.
+
+
+## Construido con 🛠️
+_Se uso IBM Cloud para utilizar los servicios de Watson Assistant que nos proporcionó las herramientas necesarias para crear el chat-bot_
+* [IBM](https://www.ibm.com/cloud/watson-assistant/) - El servicio
+
+
+
+## Autores ✒️
+* **IBM** - *Equipo IBM Cloud*
+
 
