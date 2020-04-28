@@ -70,4 +70,5 @@ Ahora se selecciona la opción de “Skill” la cual tiene este icono ![Icono1]
 
 Ahora se procede a configurar el modelo donde es importante asignarle un nombre y el idioma en el que se va a implementar el chatbot en este caso español.
 
-![5](https://user-images.githubusercontent.com/44415995/77944551-c5eb4080-7284-11ea-9333-79afde5f6fb7.jpg)
+<img width="408" alt="1" src="https://user-images.githubusercontent.com/44415995/80521457-aa8d5700-8950-11ea-8cdb-9a1d14e2ee69.PNG">
+
