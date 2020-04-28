@@ -34,7 +34,7 @@ https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-gettin
 
 ### Caso de uso 
 
-Actualmente a nivel internacional se está presentando una pandemia ocasionada por el COVID-19, lo cual ha generado que las personas tengan muchas inquietudes las cuales no pueden aclarar tan fácilmente o de fuentes oficiales. Por esa razón se desarrolló un ChatBot con el fin de aclarar dichas dudas brindando información oficial con el fin de evitar que se cree pánico y desinformación. 
+
 
 ### Paso a paso del desarrollo 
 
@@ -71,4 +71,23 @@ Ahora se selecciona la opción de “Skill” la cual tiene este icono ![Icono1]
 Ahora se procede a configurar el modelo donde es importante asignarle un nombre y el idioma en el que se va a implementar el chatbot en este caso español.
 
 <img width="408" alt="1" src="https://user-images.githubusercontent.com/44415995/80521457-aa8d5700-8950-11ea-8cdb-9a1d14e2ee69.PNG">
+
+### Paso 7:
+Vamos a crear un assistan según el siguiente flujo:
+
+![WhatsApp Image 2020-04-28 at 12 35 27 PM](https://user-images.githubusercontent.com/44415995/80523327-8121fa80-8953-11ea-9478-966fc70828ac.jpeg)
+
+
+### Paso 8:
+El siguiente paso a seguir es entrenar el modelo, primero se comienza con los “intent” o “intenciones”, este entrena al asistente para comprender la variedad de formas en que los usuarios expresan una idea o inquietud. Para ello se selecciona “Create intent” y se le asigna un nombre a la intención y los ejemplos para entrenar el modelo.
+
+- Creamos la intención #comprar, #Estado_Pedido, #Quejas_Reclamos y #saludos.
+
+<img width="357" alt="2" src="https://user-images.githubusercontent.com/44415995/80522661-8d598800-8952-11ea-83fa-1b4c6cd98a1d.PNG">
+
+<img width="303" alt="3" src="https://user-images.githubusercontent.com/44415995/80523381-a0208c80-8953-11ea-90c2-04d22a98e54c.PNG">
+
+<img width="280" alt="4" src="https://user-images.githubusercontent.com/44415995/80523395-a6166d80-8953-11ea-8b7e-41abe40b6f8b.PNG">
+
+<img width="267" alt="5" src="https://user-images.githubusercontent.com/44415995/80523398-a6af0400-8953-11ea-9d25-59f29e23e873.PNG">
 
