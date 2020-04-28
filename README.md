@@ -33,7 +33,7 @@ https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-gettin
 ## 2. Desarrollo de un Watson Assistant por medio de IBM CLOUD 🚀
 
 ### Caso de uso 
-
+Se desea agilizar el proceso de compras online por medio de un watsonAssistant, a continuación se muestra el flujo que ayudará con la venta de productos.
 
 ![WhatsApp Image 2020-04-28 at 12 35 27 PM](https://user-images.githubusercontent.com/44415995/80523327-8121fa80-8953-11ea-9478-966fc70828ac.jpeg)
 
@@ -80,31 +80,45 @@ El siguiente paso a seguir es entrenar el modelo, primero se comienza con los �
 
 - Creamos la intención #comprar, #Estado_Pedido, #Quejas_Reclamos y #saludos.
 
+- La intención comprar es creada para entender cuando el usuario quiere comprar, trate de realizar varios ejemplos para que el assistant se entrene mejor.
+
 <img width="400" alt="2" src="https://user-images.githubusercontent.com/44415995/80522661-8d598800-8952-11ea-83fa-1b4c6cd98a1d.PNG">
+
+- Estado de pedido es una intención creada para entender a un usario cuando desee saber el estado de su pedido.
 
 <img width="400" alt="3" src="https://user-images.githubusercontent.com/44415995/80523381-a0208c80-8953-11ea-90c2-04d22a98e54c.PNG">
 
+La intención quejas y reclamos ayudará al assistant a identificar cuando una personas tenga algúna queja o reclamo.
+
 <img width="400" alt="4" src="https://user-images.githubusercontent.com/44415995/80523395-a6166d80-8953-11ea-8b7e-41abe40b6f8b.PNG">
+
+Y la intención saludo se creo para que el assistant tenga la capacidad de entender un saludo.
 
 <img width="400" alt="5" src="https://user-images.githubusercontent.com/44415995/80523398-a6af0400-8953-11ea-9d25-59f29e23e873.PNG">
 
 ### Paso 8:
 Una vez ingresados los “Entity”, se ingresan las entidades los cuales son sustantivos, palabras clave o entidades regulares, para ello se selecciona “Create entity” donde se le asigna un nombre y los sustantivos. Para este modelo se añadieron @Afirmativo, @Negativo, @Id, @Numero_Celular, @Tipo_Computadora, @Salir.
 
+- Afirmativo, es creada para aquellos nodos que tienen una respuesta positiva.
+
 <img width="520" alt="6" src="https://user-images.githubusercontent.com/44415995/80525003-30f86780-8956-11ea-9ab8-2d53ec516fb4.PNG">
+
+- Negativo, es creada para aquellos nodos que tienen una respuesta negativa.
 
 <img width="520" alt="7" src="https://user-images.githubusercontent.com/44415995/80525004-3190fe00-8956-11ea-97a1-675aa0b535fc.PNG">
 
-- Para este caso seleccionamos el tipo patterns y escogimos una entidad regular que fuera solo para número del 1 al 5                                                                                                                                                         
+- Para el caso de Id, seleccionamos el tipo patterns y se escoge una entidad regular que sea para número del 1 al 5                                                                                                                                                         
 <img width="520" alt="8" src="https://user-images.githubusercontent.com/44415995/80525006-3190fe00-8956-11ea-8976-958d1a724f39.PNG">
 
-- El número de celultar, también es una entidad regular que valida que el dato ingresado sea un número de 10 dígitos y que empiece en 3.
+- El número de celultar, también es una entidad regular que valida que el dato ingresado sea un número de 10 dígitos.
 
-<img width="520" alt="9" src="https://user-images.githubusercontent.com/44415995/80525009-3190fe00-8956-11ea-80b8-4e60c940c7d2.PNG">
+<img width="520" alt="cel" src="https://user-images.githubusercontent.com/44415995/80546964-a4ad6b00-897c-11ea-979f-72c9f5b20e22.PNG">
 
+- En la entidad tipo computadora, agregamos todos las clases de coputadora que se van a vender. 
 
 <img width="520" alt="10" src="https://user-images.githubusercontent.com/44415995/80525010-32299480-8956-11ea-9ff7-e9ddf1a3b054.PNG">
 
+- Por ultima la entidad salir es usada en caso de que el usuario no quiera seguir usando el assistant.
 
 <img width="520" alt="11" src="https://user-images.githubusercontent.com/44415995/80525011-32299480-8956-11ea-8ec7-cf05d3d3e55c.PNG">
 
@@ -112,7 +126,6 @@ Una vez ingresados los “Entity”, se ingresan las entidades los cuales son su
 ### Paso 9:
 
 Ahora vamos a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”. Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un “Intent” o un “Entity”, (creado anteriormente) según convenga.
-
 
 
 
