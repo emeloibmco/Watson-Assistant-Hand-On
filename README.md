@@ -35,6 +35,9 @@ https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-gettin
 ### Caso de uso 
 
 
+![WhatsApp Image 2020-04-28 at 12 35 27 PM](https://user-images.githubusercontent.com/44415995/80523327-8121fa80-8953-11ea-9478-966fc70828ac.jpeg)
+
+
 
 ### Paso a paso del desarrollo 
 
@@ -73,12 +76,6 @@ Ahora se procede a configurar el modelo donde es importante asignarle un nombre 
 <img width="408" alt="1" src="https://user-images.githubusercontent.com/44415995/80521457-aa8d5700-8950-11ea-8cdb-9a1d14e2ee69.PNG">
 
 ### Paso 7:
-Vamos a crear un assistan según el siguiente flujo:
-
-![WhatsApp Image 2020-04-28 at 12 35 27 PM](https://user-images.githubusercontent.com/44415995/80523327-8121fa80-8953-11ea-9478-966fc70828ac.jpeg)
-
-
-### Paso 8:
 El siguiente paso a seguir es entrenar el modelo, primero se comienza con los “intent” o “intenciones”, este entrena al asistente para comprender la variedad de formas en que los usuarios expresan una idea o inquietud. Para ello se selecciona “Create intent” y se le asigna un nombre a la intención y los ejemplos para entrenar el modelo.
 
 - Creamos la intención #comprar, #Estado_Pedido, #Quejas_Reclamos y #saludos.
@@ -90,4 +87,29 @@ El siguiente paso a seguir es entrenar el modelo, primero se comienza con los �
 <img width="400" alt="4" src="https://user-images.githubusercontent.com/44415995/80523395-a6166d80-8953-11ea-8b7e-41abe40b6f8b.PNG">
 
 <img width="400" alt="5" src="https://user-images.githubusercontent.com/44415995/80523398-a6af0400-8953-11ea-9d25-59f29e23e873.PNG">
+
+### Paso 8:
+Una vez ingresados los “Entity”, se ingresan las entidades los cuales son sustantivos, palabras clave o entidades regulares, para ello se selecciona “Create entity” donde se le asigna un nombre y los sustantivos. Para este modelo se añadieron @Afirmativo, @Negativo, @Id, @Numero_Celular, @Tipo_Computadora, @Salir.
+
+<img width="520" alt="6" src="https://user-images.githubusercontent.com/44415995/80525003-30f86780-8956-11ea-9ab8-2d53ec516fb4.PNG">
+
+<img width="520" alt="7" src="https://user-images.githubusercontent.com/44415995/80525004-3190fe00-8956-11ea-97a1-675aa0b535fc.PNG">
+
+- Para este caso seleccionamos el tipo patterns y escogimos una entiidad regular que fuera solo para número del 1 al 5                                                                                                                                                         
+<img width="524" alt="8" src="https://user-images.githubusercontent.com/44415995/80525006-3190fe00-8956-11ea-8976-958d1a724f39.PNG">
+
+- El número de celultar, también es una entidad regular que valida que el dato ingresado sea un número de 10 dígitos y que empiece en 3.
+
+<img width="544" alt="9" src="https://user-images.githubusercontent.com/44415995/80525009-3190fe00-8956-11ea-80b8-4e60c940c7d2.PNG">
+
+<img width="454" alt="10" src="https://user-images.githubusercontent.com/44415995/80525010-32299480-8956-11ea-9ff7-e9ddf1a3b054.PNG">
+
+<img width="395" alt="11" src="https://user-images.githubusercontent.com/44415995/80525011-32299480-8956-11ea-8ec7-cf05d3d3e55c.PNG">
+
+
+
+
+
+
+
 
