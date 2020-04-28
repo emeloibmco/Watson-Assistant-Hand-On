@@ -95,16 +95,25 @@ Una vez ingresados los “Entity”, se ingresan las entidades los cuales son su
 
 <img width="520" alt="7" src="https://user-images.githubusercontent.com/44415995/80525004-3190fe00-8956-11ea-97a1-675aa0b535fc.PNG">
 
-- Para este caso seleccionamos el tipo patterns y escogimos una entiidad regular que fuera solo para número del 1 al 5                                                                                                                                                         
-<img width="524" alt="8" src="https://user-images.githubusercontent.com/44415995/80525006-3190fe00-8956-11ea-8976-958d1a724f39.PNG">
+- Para este caso seleccionamos el tipo patterns y escogimos una entidad regular que fuera solo para número del 1 al 5                                                                                                                                                         
+<img width="520" alt="8" src="https://user-images.githubusercontent.com/44415995/80525006-3190fe00-8956-11ea-8976-958d1a724f39.PNG">
 
 - El número de celultar, también es una entidad regular que valida que el dato ingresado sea un número de 10 dígitos y que empiece en 3.
 
-<img width="544" alt="9" src="https://user-images.githubusercontent.com/44415995/80525009-3190fe00-8956-11ea-80b8-4e60c940c7d2.PNG">
+<img width="520" alt="9" src="https://user-images.githubusercontent.com/44415995/80525009-3190fe00-8956-11ea-80b8-4e60c940c7d2.PNG">
 
-<img width="454" alt="10" src="https://user-images.githubusercontent.com/44415995/80525010-32299480-8956-11ea-9ff7-e9ddf1a3b054.PNG">
 
-<img width="395" alt="11" src="https://user-images.githubusercontent.com/44415995/80525011-32299480-8956-11ea-8ec7-cf05d3d3e55c.PNG">
+<img width="520" alt="10" src="https://user-images.githubusercontent.com/44415995/80525010-32299480-8956-11ea-9ff7-e9ddf1a3b054.PNG">
+
+
+<img width="520" alt="11" src="https://user-images.githubusercontent.com/44415995/80525011-32299480-8956-11ea-8ec7-cf05d3d3e55c.PNG">
+
+
+### Paso 9:
+
+Ahora vamos a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”. Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un “Intent” o un “Entity”, (creado anteriormente) según convenga.
+
+![10](https://user-images.githubusercontent.com/44415995/77944806-31351280-7285-11ea-805a-a3d361b6be75.jpg)
 
 
 
