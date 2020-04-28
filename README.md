@@ -113,10 +113,6 @@ Una vez ingresados los “Entity”, se ingresan las entidades los cuales son su
 
 Ahora vamos a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”. Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un “Intent” o un “Entity”, (creado anteriormente) según convenga.
 
-![12](https://user-images.githubusercontent.com/44415995/77944868-47db6980-7285-11ea-97db-cfad5e21959e.jpg)
-
-
-
 
 
 
