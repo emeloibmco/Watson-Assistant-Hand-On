@@ -128,6 +128,9 @@ Una vez ingresados los “Entity”, se ingresan las entidades los cuales son su
 Ahora vamos a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”. Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un “Intent” o un “Entity”, (creado anteriormente) según convenga.
 
 
+### Vista Preliminar
+
+![Watson-Assistant-Preview-Link-Google-Chrome-2020-04-29-17-51-13](https://user-images.githubusercontent.com/56199403/80654959-2667cc00-8a43-11ea-9b56-c5d91461ccf2.gif)
 
 
 ## 3. Conservar el Watson Assistant 🔧
