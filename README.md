@@ -35,7 +35,7 @@ https://cloud.ibm.com/docs/services/assistant-icp?topic=assistant-private-gettin
 ### Caso de uso 
 Se desea agilizar el proceso de compras online por medio de un watsonAssistant, a continuación se muestra el flujo que ayudará con la venta de productos.
 
-<img width="500" alt="buena" src="https://user-images.githubusercontent.com/44415995/80728091-295acf00-8acc-11ea-9401-90a71882fe41.png">
+<img width="1000" alt="buena" src="https://user-images.githubusercontent.com/44415995/80728091-295acf00-8acc-11ea-9401-90a71882fe41.png">
 
 
 
