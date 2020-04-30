@@ -163,7 +163,8 @@ Dentro del mismo nodo creamos un submenú que pregunta si quiere o no comprar el
 
 - Creamos las respuestas de para cada opcion del submenú anterior, estas respuestas se añadiran al dialogo en forma de nodos hijos del nodo del producto, siendo si y no cada opción tiene un nodo asociado.
 
-<img width="499" alt="submenu mac" src="https://github.com/emeloibmco/Watson-Assistant-Hands-On/issues/7#issue-609443530">
+<img width="499" alt="submenu mac" src="https://user-images.githubusercontent.com/46906169/80657718-fa9c1480-8a49-11ea-995d-62320b824e63.PNG">
+>
 
 En caso de haber elegido si, el mensaje que se va a mostrar en ese nodo será el siguiente.
 <img width="508" alt="afirmativo" src="https://user-images.githubusercontent.com/46906169/80658215-2966ba80-8a4b-11ea-9161-589d2c11be69.PNG">
