@@ -129,7 +129,7 @@ Ahora vamos a añadir los diálogos, para ello seleccionamos en el costado izqui
 
 9.1 Primero vamos a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”.
 
-![](https://github.com/emeloibmco/Watson-Assistant-Hands-On/issues/2#issue-609428841)
+<img width="638" alt="nodo de saludo" src="https://user-images.githubusercontent.com/46906169/80656092-f2da7100-8a45-11ea-808c-165b94c70b9b.PNG">
 
 Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un “Intent” o un “Entity”, (creado anteriormente) según convenga.
 
