@@ -147,7 +147,7 @@ Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un
 - Ahora vamos a añadir el nodo correspondiente a comprar, haciendo uso de la entidad “comprar” en el condicional inicial y seleccionando en la lista desplegable del “assistant respond” el tipo “option”. 
 En el title escribimos "¿Que artículo deseas comprar?" y añadimos una opción dando clic a "Add option" para determinar la visualizacion del texto escribimos en "list lable" para añadir un valor, que debe corresponder a una entidad o intención, escribimos en "value"
 
-<img width="591" alt="nombre saludo" src="https://github.com/emeloibmco/Watson-Assistant-Hands-On/issues/4#issue-609432185">
+<img width="487" alt="nodo comprar config" src="https://user-images.githubusercontent.com/46906169/80656427-cb37d880-8a46-11ea-9191-e3e3404027d2.PNG">
 
 - Añadimos un nodo hijo por cada producto que exista en el menú de compras
 
