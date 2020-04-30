@@ -126,6 +126,65 @@ Una vez ingresados los “Entity”, se ingresan las entidades los cuales son su
 ### Paso 9:
 
 Ahora vamos a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”. Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un “Intent” o un “Entity”, (creado anteriormente) según convenga.
+- Ahora vamos a añadir los diálogos, para ello se debe seleccionar “Add node” o “Añadir nodo”. 
+
+![](https://github.com/emeloibmco/Watson-Assistant-Hands-On/issues/2#issue-609428841)
+
+Una vez añadido se proporciona un nombre a el nuevo nodo y selecciona ya sea un “Intent” o un “Entity”, (creado anteriormente) según convenga.
+
+- Aqui se crea el nodo saludo, que respone a las entradas clasificadas por el asistente en la entidad “saludo”
+
+<img width="591" alt="nombre saludo" src="https://user-images.githubusercontent.com/46906169/80656246-54024480-8a46-11ea-979e-8290f008b25b.PNG">
+
+- Vamos a crear el nodo Volver_Inicio_Salir, dejando el condicional inicial del asistente como vacio.
+
+<img width="499" alt="Volver inicio" src="https://user-images.githubusercontent.com/46906169/80658702-74cd9880-8a4c-11ea-8d2c-414299e0bf70.PNG">
+
+- Luego creamos el nodo salir 
+
+<img width="511" alt="salir" src="https://user-images.githubusercontent.com/46906169/80658834-d8f05c80-8a4c-11ea-8c97-382db14bfa57.PNG">
+
+- Ahora vamos a añadir el nodo correspondiente a comprar, haciendo uso de la entidad “comprar” en el condicional inicial y seleccionando en la lista desplegable del “assistant respond” el tipo “option”. 
+En el title escribimos "¿Que artículo deseas comprar?" y añadimos una opción dando clic a "Add option" para determinar la visualizacion del texto escribimos en "list lable" para añadir un valor, que debe corresponder a una entidad o intención, escribimos en "value"
+
+<img width="591" alt="nombre saludo" src="https://github.com/emeloibmco/Watson-Assistant-Hands-On/issues/4#issue-609432185">
+
+- Añadimos un nodo hijo por cada producto que exista en el menú de compras
+
+<img width="367" alt="nodo hijo comprar" src="https://user-images.githubusercontent.com/46906169/80657319-e7d51000-8a48-11ea-820a-47fe80c5512c.PNG">
+
+- Llenamos los campos como se muestra a continuación, para mostrar una imagen en el dialogo basta con buscar la imagen en internet y copiar su enlace.
+
+<img width="524" alt="nodo mac book" src="https://user-images.githubusercontent.com/46906169/80657452-3bdff480-8a49-11ea-8aa7-7bae5c8b6b17.PNG">
+
+Dentro del mismo nodo creamos un submenú que pregunta si quiere o no comprar el producto de ese nodo, se crea añadiendo un tipo de respuesta dando clic en "Add response type" ubicado en la parte inferior del nodo. Como se muestra acontinuación:
+
+<img width="499" alt="submenu mac" src="https://user-images.githubusercontent.com/46906169/80657718-fa9c1480-8a49-11ea-995d-62320b824e63.PNG">
+
+- Creamos las respuestas de para cada opcion del submenú anterior, estas respuestas se añadiran al dialogo en forma de nodos hijos del nodo del producto, siendo si y no cada opción tiene un nodo asociado.
+
+<img width="499" alt="submenu mac" src="https://github.com/emeloibmco/Watson-Assistant-Hands-On/issues/7#issue-609443530">
+
+En caso de haber elegido si, el mensaje que se va a mostrar en ese nodo será el siguiente.
+<img width="508" alt="afirmativo" src="https://user-images.githubusercontent.com/46906169/80658215-2966ba80-8a4b-11ea-9161-589d2c11be69.PNG">
+
+Vamos al final del nodo y selecionamos en la lista desplegable jump to, y elegimos el nodo Volver_Inicio_Salir
+
+<img width="442" alt="salto volver al inicio" src="https://user-images.githubusercontent.com/46906169/80658419-b27df180-8a4b-11ea-91f8-b0e07ddb1f80.PNG">
+
+En caso de haber elegido no, el mensaje que se va a mostrar en ese nodo será el siguiente.
+<img width="513" alt="negativo" src="https://user-images.githubusercontent.com/46906169/80658255-4602f280-8a4b-11ea-888e-7397bab2e1f0.PNG">
+
+Vamos al final del nodo y selecionamos en la lista desplegable jump to, y elegimos el nodo Volver_Inicio_Salir
+
+<img width="442" alt="salto volver al inicio" src="https://user-images.githubusercontent.com/46906169/80658419-b27df180-8a4b-11ea-91f8-b0e07ddb1f80.PNG">
+
+- Vamos a crear el nodo destinado para quejas y reclamos, hace uso de la intencion #Quejas_Reclamos en el condicional inicial. Damos clic en la parte superior derecha del nodo en el boton ![iconocuztomize](https://user-images.githubusercontent.com/46906169/80659107-97ac7c80-8a4d-11ea-805f-850bfbf1bd41.PNG) para habilitar el slot y llenar los campos como se muestra a continuación:
+
+<img width="494" alt="quejas y reclamos" src="https://user-images.githubusercontent.com/46906169/80659431-9465c080-8a4e-11ea-9bd9-99f830f3e5ea.PNG">
+
+#### Este nodo debe saltar al nodo Volver_Inicio_Salir
+
 
 
 ### Vista Preliminar
