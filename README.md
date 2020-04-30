@@ -165,9 +165,6 @@ Dentro del mismo nodo creamos un submenú que pregunta si quiere o no comprar el
 
 9.8 Creamos las respuestas de para cada opcion del submenú anterior, estas respuestas se añadiran al dialogo en forma de nodos hijos del nodo del producto, siendo si y no cada opción tiene un nodo asociado.
 
-<img width="499" alt="submenu mac" src="https://user-images.githubusercontent.com/46906169/80657718-fa9c1480-8a49-11ea-995d-62320b824e63.PNG">
->
-
 En caso de haber elegido si, el mensaje que se va a mostrar en ese nodo será el siguiente.
 <img width="508" alt="afirmativo" src="https://user-images.githubusercontent.com/46906169/80658215-2966ba80-8a4b-11ea-9161-589d2c11be69.PNG">
 
@@ -199,15 +196,15 @@ Vamos al final del nodo y selecionamos en la lista desplegable jump to, y elegim
 
 Para que tu Watson Assistant se mantenga siendo funcional es recomendable:
 
-### 2.1 Actualiza los intentes:
+### 3.1 Actualiza los intentes:
 Siempre que sea posible crear nuevas entidades o elimina las que los usuarios realmente no estén utilizando.
-### 2.2 Escribe diferentes formas de un mismo mensaje:
+### 3.2 Escribe diferentes formas de un mismo mensaje:
 Los usuarios pueden preguntar de diferentes formas es por eso que es necesario que una sola pregunta tenga varias versiones.
-### 2.3 Guía a los usuarios a través de la conversación:
+### 3.3 Guía a los usuarios a través de la conversación:
 Para que los usuarios tengan una buena experiencia y deseen seguir usando en Assistant es necesario que se guíen desde el principio hasta el final de la conversación.
-### 2.4 Cuida el flujo de la conversación:
+### 3.4 Cuida el flujo de la conversación:
 Cada interacción debe conducir a la siguiente que ya fue definida. Es conveniente que la conversación este guionizada para que los usuarios solo tengan que seguir el guion creado.
-### 2.5 Asegúrese que su interfaz conversación este siempre actualizada:
+### 3.5 Asegúrese que su interfaz conversación este siempre actualizada:
 Watson Assistant está diseñado para simular una conversación, pero se recomienda no solo usar textos, sino que por medio de IBM también se puede enriquecer con imágenes, botones, etc.
 
 
